@@ -56,7 +56,7 @@ theme(plot.title = element_text(face = "bold"))
 ```
 
 
-Of the 260 news items, it should be noted that anti-communist propaganda is very dominant, the red timeline identifies anti-communist propaganda in Indonesia which tends to be reported every September, followed by October and August. After this, after this, we would see propaganda anti - communist timeline.
+Of the 260 news items, it should be noted that anti-communist propaganda is very dominant, the red timeline identifies anti-communist propaganda in Indonesia which tends to be reported every September, followed by October and August. After this, after this, we would see propaganda communist timeline.
 
 ### Data Frame and Visual
 
