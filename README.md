@@ -144,3 +144,5 @@ ggplot(data = data.pro, aes(x=x2, y=y2))+
   theme(plot.title = element_text(face = "bold")) 
 
 ```
+![Propaganda Communist Indonesia](textpropagandacommunist.png)
+the first is "Marxism" and "Movement", the other three propaganda keywords such as "Victim" this propaganda brings counter propaganda to the post 1966 New Order government which massacred the communism movement, after there is the keyword "Exile" which is related to the keyword "Human Rights", news that raises the issue of victims of political prisoners and victims of political exile through direct victims, some news also reports on human rights handling services for victims of political exile through the government directly.
