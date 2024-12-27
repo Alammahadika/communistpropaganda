@@ -76,3 +76,4 @@ ggplot(data = date_pro, aes(x=Month, y=NPro, group=1)) +
   theme(plot.title = element_text(face = "bold"))  
 
 ```
+![propaganda communist indonesia](communistpropaganda.png)
