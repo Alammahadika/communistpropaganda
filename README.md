@@ -111,4 +111,6 @@ geom_text_repel(aes(label= label1),
   theme(plot.title = element_text(face = "bold")) 
 
 ```
+![Propaganda Text Anti-Communist](textpropagandaanticommunist.png)
 
+The four most dominant keywords are "Sept" which refers to propaganda that presents the events of September 30, 1965 from a biased or tendentious perspective. Furthermore, the keyword "Rebellion" shows that there are 10 keywords in the news titles that are spread through several cases of communist rebellion in Madiun Regency and the G30S PKI rebellion. The next keyword is the propaganda "Resurrection" which is often narrated by a number of national figures and community organizations that communism in Indonesia will rise again.
