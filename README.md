@@ -73,6 +73,6 @@ ggplot(data = date_pro, aes(x=Month, y=NPro, group=1)) +
        x = "Month",
        y = "News") +
   theme_bw() +
-  theme(plot.title = element_text(face = "bold")) 
+  theme(plot.title = element_text(face = "bold"))  
 
 ```
