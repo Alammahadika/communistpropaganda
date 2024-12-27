@@ -32,3 +32,5 @@ labs(title = "Timeline Framing Media of Communist propaganda in Indonesia",
 
 ```
 ![communist propaganda indonesia](timelinecommunistpropaganda.png)
+
+The result is that the case of propaganda of the issue of communism in Indonesia is always highlighted in September, one of the strong factors is on September 30, 1965 which was the rebellion between the Indonesian Communist Party and the Indonesian military. So that the issue of history is always highlighted until now.
