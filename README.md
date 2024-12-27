@@ -9,7 +9,7 @@ Analyzing mass media propaganda of communism and anti-communism in Indonesia.
 260 news items were collected, then processed using NVivo Pro software such as automatic coding. After that, creating data visuals using R Studio.
 
 #### Analysis Data 📈:
-Strip Plot, Scatter Plot, Time-Line and Word Frequency.
+Time-Line and Word Frequency.
 
 ## Time - Line Analysis
 From all the news, I reconstructed the time sequence of events in news events in monthly measurements.
