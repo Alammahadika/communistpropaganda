@@ -81,3 +81,34 @@ Communism propaganda in the blue timeline image on the right, the majority of th
 
 ## Analysis Text Propaganda 
 This text analysis is to identify words that are often used in propaganda. I captured my text data through NVivo to see the size of its frequency.
+
+### Data Frame and Visual
+```r
+library(ggplot2)
+#Create dataset 
+x1 <-c(1,2,3,4,5,6,7,8,9,10,
+       11,12,13,14,15,16,17,18,19,20)
+y1 <-c(90,84,57,25,42,35,29,25,43,24,24,20,19,18,16,16,15,13,12,7)
+label1<-c('Sept','Rebellion','Resurrection','Rise','Film',
+          'Rejection','Dark','Murder','Action','Forbidden',
+          'Cruelty','Danger','Forbin','Threat','Contary',
+          'Betrayal','Coup','Mastermind','Kidnapping','Overthrow')
+
+againts.data <-data.frame(x1, y1, label1)
+
+library(ggplot2)
+library(ggrepel)
+ggplot(data = againts.data, aes(x=x1, y=y1))+
+  geom_point(color ="red", size =3)+
+  labs(title = "Text Propaganda Anti-Communist Indonesia",
+       x = "Index",
+       y = "News") +
+geom_text_repel(aes(label= label1),
+        box.padding = 0.35,
+        point.padding = 0.5,
+        segment.color = 'grey50') +
+  theme_classic() +
+  theme(plot.title = element_text(face = "bold")) 
+
+```
+
