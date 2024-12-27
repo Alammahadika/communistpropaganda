@@ -47,14 +47,14 @@ date_againts <-data.frame(Month=c('Jan','Feb','Mar','Apr','May',
 ggplot(data = date_againts, aes(x=Month, y=Against, group=1)) +
   geom_line(col = 'red')+
   geom_point()+
-  labs(title = "Time Line Framing Media of Pro Communist Propaganda in Indonesia",
+  labs(title = "Time Line Framing Media of Anti Communist Propaganda in Indonesia",
        x = "Month",
        y = "News") +
   theme_bw() +
 theme(plot.title = element_text(face = "bold")) 
 
 ```
-![communist propaganda indonesia](propagandacommunist.png)
+
 
 Of the 260 news items, it should be noted that anti-communist propaganda is very dominant, the red timeline identifies anti-communist propaganda in Indonesia which tends to be reported every September, followed by October and August. After this, after this, we would see propaganda anti - communist timeline.
 
@@ -69,7 +69,7 @@ date_pro <-data.frame(Month=c('Jan','Feb','Mar','Apr','May',
 ggplot(data = date_pro, aes(x=Month, y=NPro, group=1)) +
   geom_line(col= 'blue')+
   geom_point()+
-  labs(title = "Time Line Framing Media of Anti Communist Propaganda in Indonesia",
+  labs(title = "Time Line Framing Media of Communist Propaganda in Indonesia",
        x = "Month",
        y = "News") +
   theme_bw() +
