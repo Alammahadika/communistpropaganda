@@ -14,7 +14,7 @@ Time-Line and Word Frequency.
 ## Time - Line Analysis
 From all the news, I reconstructed the time sequence of events in news events in monthly measurements.
 
-### Data Frame and Visual 
+### Data Frame and Visual Time Line Framing Media of Communist Propaganda Indonesia
 ```r
 date_data <-data.frame(Month=c('Jan','Feb','Mar','Apr','May',
                                'Jun','Jul','Aug','Sep','Oct',
@@ -36,7 +36,7 @@ labs(title = "Timeline Framing Media of Communist propaganda in Indonesia",
 The result is that the case of propaganda of the issue of communism in Indonesia is always highlighted in September, one of the strong factors is on September 30, 1965 which was the rebellion between the Indonesian Communist Party and the Indonesian military. So that the issue of history is always highlighted until now. 
 After that we see two perspectives of propaganda in the media by Pro – Communism and Anti – Communism;
 
-### Data Frame and Visual
+### Data Frame and Visual Anti Communist Propaganda Indonesia
 
 ```r
 date_againts <-data.frame(Month=c('Jan','Feb','Mar','Apr','May',
@@ -58,7 +58,7 @@ theme(plot.title = element_text(face = "bold"))
 
 Of the 260 news items, it should be noted that anti-communist propaganda is very dominant, the red timeline identifies anti-communist propaganda in Indonesia which tends to be reported every September, followed by October and August. After this, after this, we would see propaganda communist timeline.
 
-### Data Frame and Visual
+### Data Frame and Visual Comunist Propaganda Indonesia
 
 ```r
 date_pro <-data.frame(Month=c('Jan','Feb','Mar','Apr','May',
@@ -82,7 +82,7 @@ Communism propaganda in the blue timeline image on the right, the majority of th
 ## Analysis Text Propaganda 
 This text analysis is to identify words that are often used in propaganda. I captured my text data through NVivo to see the size of its frequency.
 
-### Data Frame and Visual
+### Data Frame and Visual Text Propaganda Anti Communist Indonesia
 ```r
 library(ggplot2)
 #Create dataset 
@@ -114,3 +114,33 @@ geom_text_repel(aes(label= label1),
 ![Propaganda Text Anti-Communist](textpropagandaanticommunist.png)
 
 The four most dominant keywords are "Sept" which refers to propaganda that presents the events of September 30, 1965 from a biased or tendentious perspective. Furthermore, the keyword "Rebellion" shows that there are 10 keywords in the news titles that are spread through several cases of communist rebellion in Madiun Regency and the G30S PKI rebellion. The next keyword is the propaganda "Resurrection" which is often narrated by a number of national figures and community organizations that communism in Indonesia will rise again.
+
+### Data Frame and Visual Text Propaganda Communist Indonesia
+
+```r
+library(ggplot2)
+#create dataset 
+x2 <-c(1,2,3,4,5,6,7,8,9,10,
+       11,12,13,14,15,16,17,18,19,20)
+y2 <-c(5,21,80,53,48,46,46,35,25,18,12,10,7,37,24,16,15,47,34,27)
+label2 <-c('Propaganda','Socialist','Marxisme','Movement','Victim',
+          'Exile','Human Right','Violation','Struggle','Hero',
+          'Knowledge','Literation','Defend','Marx','Thinking',
+          'Completion','Media','Figure','Soekarno','Law')
+
+data.pro <-data.frame(x2, y2, label2)
+library(ggplot2)
+library(ggrepel)
+ggplot(data = data.pro, aes(x=x2, y=y2))+
+  geom_point(color='blue', size=3)+
+  labs(title = "Text Propaganda Communist Indonesia",
+       x = "Index",
+       y = "News") +
+  geom_text_repel(aes(label=label2),
+                  box.padding = 0.35,
+                  point.padding = 0.5,
+                  segment.color = 'grey50')+
+  theme_classic() +
+  theme(plot.title = element_text(face = "bold")) 
+
+```
