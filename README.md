@@ -50,7 +50,7 @@ ggplot(data = date_againts, aes(x=Month, y=Against, group=1)) +
   labs(title = "Time Line Framing Media of Pro Communist Propaganda in Indonesia",
        x = "Month",
        y = "News") +
-  theme_classic() +
+  theme_bw() +
 theme(plot.title = element_text(face = "bold")) 
 
 ```
