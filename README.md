@@ -31,3 +31,4 @@ labs(title = "Timeline Framing Media of Communist propaganda in Indonesia",
   theme(plot.title = element_text(face = "bold")) 
 
 ```
+![communist propaganda indonesia](timelinecommunistpropaganda.png)
