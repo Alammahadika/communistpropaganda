@@ -54,5 +54,4 @@ ggplot(data = date_againts, aes(x=Month, y=Against, group=1)) +
 theme(plot.title = element_text(face = "bold")) 
 
 ```
-
-
+![communist propaganda indonesia](propagandacommunist.png)
