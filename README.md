@@ -80,7 +80,7 @@ ggplot(data = date_pro, aes(x=Month, y=NPro, group=1)) +
 Communism propaganda in the blue timeline image on the right, the majority of the propaganda of which is also reported in the same months such as September, October and December, on the timeline of these months does not have a day that must be commemorated as a moment for a theme
 
 ## Analysis Text Propaganda 
-This text analysis is to identify words that are often used in propaganda. I captured my text data through NVivo to see the size of its frequency.
+This text analysis is to identify words (key words) that are often used in propaganda. I captured my text data through NVivo to see the size of its frequency.
 
 ### Data Frame and Visual Text Propaganda Anti Communist Indonesia
 ```r
