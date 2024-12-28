@@ -19,7 +19,7 @@ From all the news, I reconstructed the time sequence of events in news events in
 date_data <-data.frame(Month=c('Jan','Feb','Mar','Apr','May',
                                'Jun','Jul','Aug','Sep','Oct',
                                'Nov','Dec'),
-                        Propaganda=c(12,6,13,7,24,24,17,18,90,36,7,6))
+                        Propaganda=c(12,6,13,7,24,24,17,18,90,36,7,6)) #result coding in NVivo Pro
 
 ggplot(data = date_data, aes(x=Month, y=Propaganda, group=1))+
   geom_line(col="red")+
@@ -42,7 +42,7 @@ After that we see two perspectives of propaganda in the media by Pro – Communi
 date_againts <-data.frame(Month=c('Jan','Feb','Mar','Apr','May',
                                      'Jun','Jul','Aug','Sep','Oct',
                                      'Nov','Dec'),
-                        Against=c(2,0,12,7,8,6,8,10,99,14,0,0))
+                        Against=c(2,0,12,7,8,6,8,10,99,14,0,0)) #result coding in NVivo Pro
 # Basic Line
 ggplot(data = date_againts, aes(x=Month, y=Against, group=1)) +
   geom_line(col = 'red')+
@@ -64,7 +64,7 @@ Of the 260 news items, it should be noted that anti-communist propaganda is very
 date_pro <-data.frame(Month=c('Jan','Feb','Mar','Apr','May',
                               'Jun','Jul','Aug','Sep','Oct',
                               'Nov','Dec'),
-                      NPro=c(3,2,0,0,0,0,3,10,16,20,0,45))
+                      NPro=c(3,2,0,0,0,0,3,10,16,20,0,45))  #result coding in NVivo Pro
 # Basic Line
 ggplot(data = date_pro, aes(x=Month, y=NPro, group=1)) +
   geom_line(col= 'blue')+
