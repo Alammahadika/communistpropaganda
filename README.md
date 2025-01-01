@@ -1,4 +1,4 @@
-# [Mass Media Propaganda: Indonesian Communism & Anti-Communism in the Mass Media](https://hrcak.srce.hr/en/file/469510)
+# [Mass Media Propaganda: Indonesian Communism & Anti-Communism in the Mass Media](https://hrcak.srce.hr/en/file/469510) 
 
 This amateur project presents the results of my personal research data analysis using a combination of NVivo and R-Studio that has been published.
 
